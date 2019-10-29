@@ -1,0 +1,14 @@
+server:
+  port: 8882
+
+spring:
+  application:
+    name: feign
+
+feign:
+  httpclient:
+    enabled: true  
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9030/eureka
