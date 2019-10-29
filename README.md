@@ -1,4 +1,3 @@
-
 # Feign 学习笔记
 
 ### web Service
@@ -227,4 +226,3 @@ hystrix:
 
 ### Feign 调用传递Token 
 使用拦截器，先获取token, 然后再加入到Feign 的请求中去
-
